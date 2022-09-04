@@ -1,0 +1,32 @@
+.courses_container{
+    height: 90vh;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.easyInFromLeft{
+    animation: easyInfromleft 1s ease-out forwards;
+  
+}
+
+.easyInFromRight{
+    animation: easyInfromright 1s ease-out forwards;
+   position: relative;
+}
+
+@keyframes easyInfromright {
+    0%{
+        transform: translateX(500px);
+    }
+}
+
+@keyframes easyInfromleft {
+    0%{
+        transform: translateX(-500px);
+    }
+}

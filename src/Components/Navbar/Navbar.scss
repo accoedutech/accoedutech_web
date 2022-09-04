@@ -1,0 +1,40 @@
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    height: 80px;
+    width: 90%;
+    margin: 0 auto;
+    .logo{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    // border: 1px solid red;
+    .links{
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                margin: 0 20px;
+                cursor: pointer;
+                font-weight: 600;
+                padding: 10px;
+                font-size: 15px;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+                // transition: all 0.5s ease-out;
+                &:hover{
+                    border-bottom: 2px solid #ffb948;
+                    color: #008575;
+                }
+
+            }
+            .active{
+                border-bottom: 2px solid #ffb948;
+                color: #008575;
+            }
+        }
+    }
+}

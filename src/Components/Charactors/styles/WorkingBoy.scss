@@ -1,0 +1,62 @@
+.workingboy_container{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    .boy{
+        width: 450px;
+       position: absolute;
+       bottom: 0px;
+       left: 120px;
+       
+    }
+    .chatgirl{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 120px;
+        z-index: 1;
+    }
+    .chatleft{
+        position: absolute;
+        top: 150px;
+        left: -20px;
+        z-index: 1;
+        width: 120px;
+        transform: rotate(180deg);
+       // animation: leftChat infinite 2s linear;
+        
+    }
+    .chatright{
+        position: absolute;
+        top: 50px;
+        right: 300px;
+        width: 120px;
+        z-index: 1;
+    }
+    .tree{
+        position: absolute;
+        bottom: 0px;
+        left: 50px;
+        width: 200px;
+        z-index: 1;
+    }
+    .question{
+        position: absolute;
+        top: 50px;
+        right: 100px;
+        width: 100px;
+        z-index: 1;
+    }
+}
+
+  @keyframes leftChat {
+    0% {
+      transform:  translateX(0px) rotate(180deg);
+    }
+    50% {
+        transform: translateX(-15px) rotate(180deg);
+    }
+    100% {
+      transform:  translateX(0px) rotate(180deg);
+    }
+  }

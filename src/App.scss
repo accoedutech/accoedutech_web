@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -34,5 +35,35 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.upDown {
+  animation: UpDown infinite 2s linear;
+}
+@keyframes UpDown {
+  0% {
+    transform:  translateY(0px);
+  }
+  50% {
+      transform: translateY(-15px);
+  }
+  100% {
+    transform:  translateY(0px);
+  }
+}
+
+.leftRight {
+  animation: leftRight infinite 2s linear;
+}
+@keyframes leftRight {
+  0% {
+    transform:  translateX(0px);
+  }
+  50% {
+      transform: translateX(-15px);
+  }
+  100% {
+    transform:  translateX(0px);
   }
 }

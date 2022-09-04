@@ -1,0 +1,47 @@
+.courseCard{
+    border: 2px solid lightgray;
+    width: 500px;
+    margin: 50px;
+    height: 400px;
+    padding: 30px;
+    background-color: white;
+    h3{
+        font-weight: 700;
+        font-size: 25px;
+        margin: 30px 0;
+    }
+    p{
+        font-weight: 500;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .btns{
+        display: flex;
+        justify-content: space-between;
+        button{
+            background-color: #ffb948;
+            flex-grow: 1;
+            color: white;
+            padding: 10px 50px;
+            border-radius: 20px;
+            cursor: pointer;
+            border: 0px;
+            font-weight: 600;
+            transition: all 0.5s ease-out;
+            color: black;
+            margin: 10px;
+            &:hover{
+                filter: drop-shadow(0px 0px 5px #ffb948);
+            }
+            &:nth-child(2){
+                background-color: white;
+                color: black;
+                border: 1px solid black;
+            }
+        }
+    }
+    &:hover{
+        border: 2px solid #ffb948;
+    }
+  
+}

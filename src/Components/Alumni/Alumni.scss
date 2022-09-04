@@ -1,0 +1,39 @@
+.alumni_parent{
+    height: 90vh;
+    width: 100%;
+    margin-top: 100PX;
+}
+.alumni_image{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2{
+        text-align: center;
+        color: gray;
+        font-weight: 300;
+        margin: 10px;
+    }
+}
+.alumni_container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.randomAvatar{
+  position: absolute;
+  transition: all 0.7s ease-in-out;
+}
+.fixed{
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%,-50%) !important;
+}
+.main_avatar{
+    z-index: 1;
+    border: 2px solid #ffb948;
+    box-shadow: 2px 2px 5px gray;
+}
