@@ -4,7 +4,6 @@ import 'antd/dist/antd.css';
 import Landing from './Components/Landing/Landing';
 
 function App() {
-
   return (
     <div >
        <Landing />
