@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React from 'react';
 import './App.scss';
 import 'antd/dist/antd.css';
