@@ -3,6 +3,8 @@ import React from "react";
 import Alumni from "../Alumni/Alumni";
 import WorkingBoy from "../Charactors/WorkingBoy";
 import Title from "../Common/Title";
+import { Course } from "../CourseDetails/Coursedetails";
+
 import Courses from "../Courses/Courses";
 import Cursor from "../Cursor/Cursor";
 import Navbar from "../Navbar/Navbar";
@@ -27,6 +29,7 @@ const Landing = () => {
         <ScrollDown />
         <Alumni />
         <Courses/>
+        <Course/>
    
         </>
     );
